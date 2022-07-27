@@ -16,6 +16,9 @@ function App() {
   const [isAdventureVisible, setAdventureVisible] = useState(true)
   const [isLearningVisible, setLearningVisible] = useState(true)
 
+  const [modelProps, setModel] = useState(null)
+  // setModel('Ive set model')
+
   function attachState(tileType){
     switch(tileType) {
       case 'project':
@@ -48,7 +51,7 @@ function App() {
 
   const tiles = projects.map((project, index) => 
     <>
-      {attachState(project.group) && <Tile project={project} key={index}/>}
+      {attachState(project.group) && <Tile project={project} setModel={setModel} key={index}/>}
     </>)
 
   return (
@@ -67,7 +70,23 @@ function App() {
         columnClassName="my-masonry-grid_column">
         {tiles}
       </Masonry>
+
+      {modelProps && <Modal props={modelProps} setModel={setModel}/>}
       
+    </div>
+  )
+}
+
+function Modal(props) {
+  const { title, group, description, url, imageSrc, src2 } = props.props
+  return (
+    <div className="modal">
+      <div className="modal-content">
+        <span onClick={()=>props.setModel(null)} className="close">&times;</span>
+        <h1>{title}</h1>
+        <h2>{description}</h2>
+        <img src={imageSrc}></img>
+      </div>
     </div>
   )
 }
