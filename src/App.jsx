@@ -1,8 +1,10 @@
 import './App.css'
-import Tile from './Tile'
 import { useState } from 'react'
 import { projects } from '../public/projects.js'
+
 import Masonry from 'react-masonry-css'
+import Modal from './Modal'
+import Tile from './Tile'
 
 function App() {
   const breakpointConfig = {
@@ -17,7 +19,6 @@ function App() {
   const [isLearningVisible, setLearningVisible] = useState(true)
 
   const [modelProps, setModel] = useState(null)
-  // setModel('Ive set model')
 
   function attachState(tileType){
     switch(tileType) {
@@ -73,20 +74,6 @@ function App() {
 
       {modelProps && <Modal props={modelProps} setModel={setModel}/>}
       
-    </div>
-  )
-}
-
-function Modal(props) {
-  const { title, group, description, url, imageSrc, src2 } = props.props
-  return (
-    <div className="modal">
-      <div className="modal-content">
-        <span onClick={()=>props.setModel(null)} className="close">&times;</span>
-        <h1>{title}</h1>
-        <h2>{description}</h2>
-        <img src={imageSrc}></img>
-      </div>
     </div>
   )
 }
