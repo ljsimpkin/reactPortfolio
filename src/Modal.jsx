@@ -1,5 +1,5 @@
 function Modal(props) {
-  const { title, group, description, url, imageSrc, src2 } = props.props
+  const { title, group, description, url, images } = props.props
   return (
     <div className="modal" onClick={()=>props.setModel(null)}>
       <div className="modal-content">
@@ -7,7 +7,9 @@ function Modal(props) {
         <h1>{title}</h1>
         <h2>{description}</h2>
         <a href={url}>Checkout this link to see more</a>
-        <img src={imageSrc}></img>
+        {images.map(image => 
+          <img src={image}></img>
+        )}
       </div>
     </div>
   )
