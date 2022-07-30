@@ -72,7 +72,7 @@ function App() {
         {tiles}
       </Masonry>
 
-      {modelProps && <Modal props={modelProps} setModel={setModel}/>}
+      {modelProps && <Modal project={modelProps} setModel={setModel}/>}
       
     </div>
   )
