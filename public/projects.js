@@ -3,7 +3,7 @@ export const projects = [
     title: 'Sound Detector',
     group: 'project',
     subHeading: 'A table tennis app to help you keep track of your rallies with sound',
-    description: `During covid lockdowns I began to play a lot of table tennis and I was interested to think of a project that could teach me about sound recognition and machine learning. I built this app as a quick proof of concept using Google’s Teachable Machine which helped me train and deploy the machine learning model. I then built the front end and hosted it on Github. In the future, I'd like it to be better at detecting false positives – currently you can enable your mic and test it out by clapping.`,
+    description: `During covid lockdowns I began to play a lot of table tennis and I was interested to think of a project that would teach me about sound recognition and machine learning. I built this app as a quick proof of concept using Google’s Teachable Machine which helped me train and deploy the machine learning model. I then built the front end and hosted it on Github. In the future, I'd like it to be better at detecting false positives – currently you can enable your mic and test it out by clapping!`,
     url: 'https://ljsimpkin.github.io/table-tennis-counter',
     images: [ 'media/images/counter.png' ]
   },
@@ -11,7 +11,7 @@ export const projects = [
     title: 'Time series heat map',
     group: 'project',
     subHeading: "Software developed to display bee data but coudn't get bee consent",
-    description: `While working as a data science intern at MyApiary, I built a dashboard that displays hive data as a time-series heatmap. I successfully taught myself Javascript, including how to interface with Google Maps API, and used Python with Jupyter Notebooks to conduct further research. You can try it yourself on my portfolio – Instead of the beehive data, I have replaced it with my less sensitive travel data.`,
+    description: `While working as a data science intern for MyApiary, I built a dashboard that displays hive data as a time-series heatmap. I successfully taught myself Javascript, including how to interface with Google Maps API, and used Python with Jupyter Notebooks to conduct further research. You can try it yourself on my portfolio – Instead of the beehive data, I've replaced it with my less sensitive travel data.`,
     url: 'https://ljsimpkin.github.io/Time-series-heat-map/',
     images: [ 'media/images/map.png' ]
   },
@@ -27,7 +27,7 @@ export const projects = [
     title: 'Flutter mobile app',
     group: 'project',
     subHeading: 'A cross platform tool for building mobile and web apps',
-    description: `Being interested in building mobile and web apps from one code base, I experimented with flutter to see what I could build in 48 hours. It was my first time using the development kit and to get set up quickly I found an online IDE called https://flutlab.io. I went through the getting started tutorial and built a few example projects like a startup name generator and a web app for teaching people about the importance of pH. You can find the Github for it here.`,
+    description: `Being interested in building mobile and web apps from one code base, I experimented with flutter to see what I could build in 48 hours. It was my first time using the development kit and to get set up quickly I found an online IDE called https://flutlab.io. I went through the getting started tutorial and built a few example projects like a startup name generator and a web app for teaching people about the importance of pH. You can try it out below.`,
     url: 'https://github.com/ljsimpkin/Flutter-pH-App',
     images: [
       'media/images/flutterPh1.png',
@@ -49,7 +49,16 @@ export const projects = [
     title: 'Tiling',
     group: 'learning',
     subHeading: 'Learning to tile 3 bathrooms from scratch',
-    description: `Having never tiled before I took on the biggest DIY project of my life. It was the single largest skill that would help my dad finish off most of the house as I would be able to use it to complete 3 bathrooms. I learnt how to do it by watching youtube videos, asking family members who were builders and architects, and by breaking a few tiles along the way. It was a pretty big project for someone completely fresh and even the builder in the family said they’d usually outsource such a task (/seemed skeptical at first). In the end I succeeded by persevering through and being meticulous with it. My high attention to detail proved super valuable as I perfected the art of cutting a curve by scoring it, and then cutting teeth out with an angle grinder and a tile nibbler, until applying the final touches with the grinder. I learnt a tonne of useful things like asking hardware specialists for help, and finished the job to a standard that looks very professional. It was also really useful spending time planning the layout of the tiles. We spent valuable time on this making sure the tiles would be placed in the most aesthetic and practical place.`,
+    description: `Having never tiled before, I took on the biggest DIY project of my life. My home growing up had 3 unfinished bathrooms and tiling was the only thing standing in their way of being complete. \n
+
+    My task was to learn how to tile from scratch and then implement it. After watching a number of youtube videos and asking my uncle for building advice, I went to different hardware stores to buy the tools and material. Here I encountered my first problem: the tile concrete I bought was rigid instead of flexible. Luckily my dad noticed this before I started and then off I went to the tile store to get some specialist advice this time around. \n
+    
+    With some patience, most of the tiles were fairly straightforward to cut once I became comfortable using the tile cutter; the challenge was ccurving the tiles around the base of the showers and pipes. Through a lot of research, practice and a few broken tiles, I perfected the art of the curve by scoring, cutting teeth shapes, and finely smoothening the edge with an angle grinder.\n
+    
+    I am super happy with the result and finished it to a standard that looks very professional. It took me 2 months to do 2 bathrooms. Being really meticulous helped a lot as I would patiently redo a tile if I wasn’t happy with it. Also being organised helped a lot as did a lot of planning with my Dad to decide on the layout and design.
+    \n
+    10/10 Thanks for reading
+    `,
     url: '',
     images: [
       'media/images/tiling/tile2.png',
@@ -121,7 +130,7 @@ export const projects = [
     group: 'project',
     subHeading: "Search for a Tweet and analyse people's feelings",
     description: `This was Inspired by an NPR experiment where they made a trading bot that would buy or sell stocks depending on Donald Trump’s twitter sentiment towards it (Spoiler they didn’t make any money because company names were sometimes mistaken for other words like fruit eg Apple… and vice versa). \n
-    I built this with python, a sentiment analysis library called TextBlob, and twitter’s api. Also Raj’s video helped me out a lot along the way: https://www.youtube.com/watch?v=o_OZdbCzHUA
+    I built this with python, a sentiment analysis library called TextBlob, and twitter’s api. Also Siraj Raval Twitter Sentiment Analysis video helped me out a lot along the way.
     `,
     url: 'https://github.com/ljsimpkin/Twitter/tree/master/sentiment%20to%20csv',
     images: [ 'media/images/twitter.png' ]
@@ -141,40 +150,16 @@ export const projects = [
     url: 'https://github.com/ljsimpkin/Sudoku',
     images: [ 'media/images/sudoku.PNG' ]
   },
-  // {
-  //   title: 'What I learnt from my time doing door to door sales',
-  //   group: 'learning',
-  //   subHeading: 'Reflection on my uni sales job',
-  //   url: 'https://drive.google.com/file/d/1ZTO0vycYsbK2uIRKVwc8cJe_O6gMWH9E/view?usp=sharing',
-  //   images: [ 'media/images/sales.png' ]
-  // },
   {
-    title: "Light pollution's effect on insects",
+    title: 'Berkley AI Course',
     group: 'learning',
-    subHeading: 'A uni research project on the effect of human light on animals',
-    description: `
-    Abstract: Ecological light pollution, defined by its ability to alter the patterns of night and day in an ecosystem, is a relatively recent disturbance from an evolutionary perspective (Longcore & Rich, 2004). Before two hundred years ago the moon and the stars were the major sources of light at night. By burning wood, oil, dried fish and other materials alike, fire was the main source of artificial light. While certainly influencing local animal behavior and ecology, such effects were limited. Since then, the proliferation of electric lighting has revolutionised the way the world is seen today. At the flick of a switch or press of a button, the patterns of night and day that used to govern early human behavior can now be controlled.`,
-    url: '',
-    images: ['media/images/light.jpeg' ]
+    subHeading: `Completed Berkeley's course for inclusive AI course`,
+    url: 'https://fcba.berkeley.edu/certificate-verifier/?code=52-159-567-2935',
+    images: [
+      'media/images/berkeley.png'
+    ]
   },
-  {
-    title: 'Built in Obsolescence blog',
-    group: 'learning',
-    subHeading: 'Are products built to last?',
-    description: `Located in an old fire station, there exists an incandescent bulb that has been burning for over 100 years. If we have always had the ability to build such a light bulb, why are there not more like this one? One theory is that many of our products today are designed to become obsolete. During the industrial revolution light bulb manufacturers came together to form a cartel. This cartel allegedly agreed to manufacture light bulbs that expired after 1000 hours (XX). This was advertised under the guise that light bulbs with such life spans were safer. That such light bulbs were less prone to exploding, catching fire, and omitting noxious gases (the gas inside the lightbulb is not pure oxygen. It’s a combination of gases that are designed to be inert). However, some people think that it was simply a way to encourage consumers to buy more bulbs. Essentially they believe that these light bulbs were built to become obsolete. On the other hand, another explanation might be that it is much cheaper to produce light bulbs which expire sooner and this is simply what people want. 
-    \n
-    From a perspective of hindsight, it is easy to conjure up such conspiracies by looking at who benefits (quay bono). Apple has been accused for building phones that slow down over time (being incentivised by the sale of their hardware rather than software); IBM delayed the production of its new processor until their existing patent ran out so that people would buy their old one and then replace it when they made their new one; dodgy used cars salesmen who sell cars that last just long enough to void consumer guarantees; and clothes that quickly become out of fashion - otherwise known as fast fashion. The imagination can easily be stretched to view capitalism as being responsible for the unnecessary waste from products built to last long enough to warrant satisfaction, but just short enough to make sustainable fortunes. And for those companies that don’t play ball, the risk of producing a product that is too good is a temporary existence. Pumpkin patch made clothes that were “too good” such that once somebody had purchased them, no-one needed new ones. Hand me downs could last generations. Go pro designed products that were so good that people needn’t buy the latest versions. Or maybe these companies just failed to innovate. 
-    \n
-    Do companies intentionally build products that have an expiry date? Or more importantly, does our economic climate incentivise the production of products that are built to expire? Economic theory predicts that competition would result in people cheating the hold of a cartel in pursuit of their own self interest to take more of the market share. That if there were a demand for longer lasting light bulbs companies would soon scurry to satisfy this demand. This would lead to the production of light bulbs that last much longer, just like the LED ones we have today. Competition has created technologies that overcome the obsolescence problem. Perhaps the problem of built in obsolescence is not as bad as we thought when innovation through competition soon follows.
-    \n
-    Is redundancy and waste just an uninviteable aspect of innovation? One theory that may help solve this problem is the release of ownership. Instead of buying products it might be better if we rented them. This would change the whole incentive structure that builds companies. For example, it would be in a light bulb companies best interest to build bulbs that lasted the longest amount of time. They would also be more inclined to build products that were more recyclable at the end of their life span. One carpet company is already doing this. The rent tiled carpet so that when part of the carpet near the doorway needs replacing, only that part need be replaced. They also recycle the carpet and turn it into other patterns. Such examples of circular economy where the manufacturer internalises the externality of waste has exciting implications on global reductions in waste. 
-    \n
-    Renting may not be the best for everything. We tend to look after our own car better than a rented one. But for products that incur no moral hazard (like light bulbs) perhaps renting is the next step to moving towards a more environmentally friendly economy. Another problem it might have is that it might decrease innovation as companies have fewer incentives to do so. Products aren’t mutating as much as they would because they are living longer lives. 
-    \n
-    Gone are the days of old where tools would last generations the mere thought conjuring up an image of grandad sitting in a rocking chair and saying “things don’t last as long as they used to bag in my day”. `,
-    url: '',
-    images: ['media/images/lightBulb.png']
-  },
+
   {
     title: 'Diving',
     group: 'adventure',
@@ -195,95 +180,45 @@ export const projects = [
     images: [ 'media/images/numbers.png' ]
   },
   {
-    title: 'Hiking',
+    title: 'Half Dome',
     group: 'adventure',
-    subHeading: 'A quick stroll up Yosemite',
-    url: 'http://mailiam.me/portfolio/#',
-    images: [ 'media/images/hiking.jpg' ]
+    subHeading: 'Half Dome summit hike Yosemite',
+    url: '',
+    images: [ 'media/images/hiking.jpg',
+      'media/images/hiking2.jpeg',
+      'media/images/hiking3.jpg' 
+    ]
+  },
+  {
+    title: 'The future of Genetics',
+    group: 'learning',
+    subHeading: 'Feel the excitment as founder Zack shares his thoughts',
+    url: 'media/audio/zack_genetics_clip.mp3',
+    images: [ 'media/images/zbiotics.jpg' ]
+  },
+  {
+    title: 'Twitter',
+    group: 'learning',
+    subHeading: '42 Silicon Valley Twitter project',
+    url: 'https://twitter.com/5impkin',
+    images: [ 'media/images/twit.png' ]
+  },
+  {
+    title: '42 Silicon Valley',
+    group: 'learning',
+    subHeading: 'Learning to code in Silicon Valley!',
+    description: `42 Silicon Valley is a school like no other. The school had no teachers and students solved problems by asking each other for help and finding out for themselves. While I was there, I dived into algorithms, learnt about using loops, recursion, compilers, and how to check memory leaks. We learnt everything in C so afterwards, when I did some ML courses and later the Data Science internship, the coding element was surprisingly quick for me to learn. 42 has strengthened my self belief and I have since done a lot of project-based learning: Deploying an ML app with Google’s teachable machine, making a wireless face detection security cameras, and building a couple of blockchain apps – one of which for a hackathon that won our team prize money!
+    `,
+    url: '',
+    images: [ 'media/images/42.jpeg',
+    'media/images/42_2.jpg' ]
   },
   {
     title: 'Thai Kickboxing',
     group: 'adventure',
     subHeading: 'Awesome training camp in Bangkok',
-    url: 'https://www.facebook.com/sorvorapin.page',
+    url: '',
     images: [ 'media/images/kick.JPG' ]
-  },
-  {
-    title: 'Fast food in Japan',
-    group: 'adventure',
-    subHeading: 'Healthier than my home cooked slow food',
-    url: 'http://mailiam.me/portfolio/#',
-    images: [ 'media/images/raman.JPG', 'media/images/burger.JPG' ]
-  },
-  {
-    title: 'Abel Tasman Kayak',
-    group: 'adventure',
-    subHeading: 'In an inflatable raft',
-    url: 'https://www.google.com/search?q=abel+tasman+national+park&tbm=isch&ved=2ahUKEwj96_PMqNvpAhUYIysKHYmTCrMQ2-cCegQIABAA&oq=abel+tasman+nat&gs_lcp=CgNpbWcQARgAMgQIABBDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAUOQOWKgSYLkeaABwAHgAgAGJAogBpQaSAQUwLjMuMZgBAKABAaoBC2d3cy13aXotaW1n&sclient=img&ei=KS3SXr2zGJjGrAGJp6qYCw&bih=721&biw=1280&hl=en',
-    images: [ 'media/images/kayak.JPG' ]
-  },
-  {
-    title: 'The future of energy',
-    group: 'learning',
-    subHeading: 'Interview with Shannon, CMO of Solar Block',
-    url: 'audio/solar_block.mp3',
-    images: [ 'media/images/idea.JPG' ]
-  },
-  {
-    title: 'The future of Genetics',
-    group: 'learning',
-    subHeading: 'Feel the excitment as founder Zack shares his thoughts.',
-    url: 'audio/zack_genetics_clip.m4a',
-    images: [ 'media/images/zbiotics.jpg' ]
-  },
-  {
-    title: 'Twitter Project',
-    group: 'project',
-    subHeading: 'These tweets took me longer than you might think',
-    url: 'https://twitter.com/5impkin',
-    images: [ 'media/images/twit.png' ]
-  },
-  {
-    title: 'What I learnt about booking flights',
-    group: 'learning',
-    subHeading: 'Cheap ways to travel',
-    url: 'pages/travel_tips.html',
-    images: [ 'media/images/kayak.JPG' ]
-  },
-  {
-    title: 'Juvenile Wisdom',
-    group: 'learning',
-    subHeading: 'My speech about opportunities for kids',
-    url: 'https://drive.google.com/file/d/1zrq_r7U29YMYugRZkVoC0h7q4X4xe2LC/view?usp=sharing',
-    images: [ 'media/images/speech.png' ]
-  },
-  {
-    title: 'House rafts in Vietnam!',
-    group: 'adventure',
-    subHeading: 'Kayaking around the islands',
-    url: 'https://www.google.com/search?q=cat+ba+vietnam&tbm=isch&hl=en&ved=2ahUKEwiejPiYp9vpAhWbcH0KHR_9BF0QBXoECAEQRQ&biw=1280&bih=721',
-    images: [ 'media/images/vietnam1.JPG', 'media/images/vietnam2.JPG' ]
-  },
-  {
-    title: 'What I learnt after meeting with a VC',
-    group: 'learning',
-    subHeading: 'Opinion on my experience',
-    url: 'pages/vc.html',
-    images: [ 'media/images/slides.JPG' ]
-  },
-  {
-    title: '42 Silicon Valley',
-    group: 'learning',
-    subHeading: 'Learnt to code!',
-    url: 'https://www.42.us.org/',
-    images: [ 'media/images/code.JPG' ]
-  },
-  {
-    title: 'Earnt some Confetti',
-    group: 'project',
-    subHeading: 'Hacker Rank',
-    url: 'https://www.hackerrank.com/ljsimpkin',
-    images: [ 'media/images/confetti1.jpg' ]
   },
   {
     title: 'Played with Python',
@@ -293,49 +228,40 @@ export const projects = [
     images: [ 'media/images/kaggle.jpeg' ]
   },
   {
-    title: 'Completed a quarter triathlon',
+    title: 'Triathlons',
     group: 'adventure',
-    subHeading: 'Next time the full!',
-    url: 'https://www.peoplestri.co.nz/',
+    subHeading: `Getting gains doing the Auckland People's triathlon`,
+    url: '',
     images: [ 'media/images/running.JPG' ]
   },
-  {
-    title: 'Opportunity Alert',
-    group: 'project',
-    subHeading: 'Notified when NZ companies get investment',
-    url: 'https://fortune.com/newsletter/termsheet/',
-    images: [
-      'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/271/rocket_1f680.png'
-    ]
-  },
-  {
-    title: 'Berkley AI Course',
-    group: 'learning',
-    subHeading: 'Signed up to inclusive AI course',
-    url: 'https://berkeley.us14.list-manage.com/track/click?u=1075bc7887a2db896be9973cf&id=c0a7165a5d&e=f365cdd717',
-    images: [
-      'https://static.easyrecrue.com/clients/1297_f4d49f5689ab867e9bf73b6ca48c01ee/telechargement.png'
-    ]
-  },
+  // {
+  //   title: 'Opportunity Alert',
+  //   group: 'project',
+  //   subHeading: 'Notified when NZ companies get investment',
+  //   url: 'https://fortune.com/newsletter/termsheet/',
+  //   images: [
+  //     'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/271/rocket_1f680.png'
+  //   ]
+  // },
   {
     title: 'Brand Stunts',
     group: 'learning',
-    subHeading: 'Pulling off crazy tricks in the name of brand! – "Work" as an ambassador (not me btw)',
+    subHeading: 'Pulling off crazy tricks in the name of brand!',
     url: 'mailiam.me',
     images: [ 'media/images/ue1.png', 'media/images/ue2.png' ]
   },
   {
     title: 'Ocean Swimming',
     group: 'adventure',
-    subHeading: 'Almost died completing the bean rock swim. The shortest distance between two points is a straight line, remember?',
+    subHeading: 'Completed the bean rock ocean swim advance mode. Note to self: The shortest distance between two points is a straight line',
     url: 'mailiam.me',
     images: [ 'media/images/bean rock.JPG' ]
   },
   {
     title: 'Mountain Biking',
     group: 'adventure',
-    subHeading: 'Get that leg pump',
-    url: 'https://www.google.com/search?q=wanaka&sxsrf=ALeKk01P-Ra5C-PakNNvjk9zj50ZfrsFag:1591056980302&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjQ84KR7eHpAhV77HMBHcWqC9kQ_AUoAnoECB8QBA&biw=1280&bih=721',
+    subHeading: 'Getting that leg pump around the NZ and Italian trails',
+    url: '',
     images: [ 'media/images/bike.JPG' ]
   },
   {
@@ -348,10 +274,26 @@ export const projects = [
     ]
   },
   {
+    title: "Light pollution's effect on insects",
+    group: 'learning',
+    subHeading: 'A uni research project on the effect of human light on animals',
+    description: `
+    Abstract: Ecological light pollution, defined by its ability to alter the patterns of night and day in an ecosystem, is a relatively recent disturbance from an evolutionary perspective (Longcore & Rich, 2004). Before two hundred years ago the moon and the stars were the major sources of light at night. By burning wood, oil, dried fish and other materials alike, fire was the main source of artificial light. While certainly influencing local animal behavior and ecology, such effects were limited. Since then, the proliferation of electric lighting has revolutionised the way the world is seen today. At the flick of a switch or press of a button, the patterns of night and day that used to govern early human behavior can now be controlled.`,
+    url: '',
+    images: ['media/images/light.jpeg' ]
+  },
+  {
+    title: 'Abel Tasman',
+    group: 'adventure',
+    subHeading: 'In an inflatable raft',
+    url: '',
+    images: [ 'media/images/kayak.JPG' ]
+  },
+  {
     title: 'Sapiens',
     group: 'learning',
     subHeading: "Challenge every idea you've ever had",
-    url: 'https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari-ebook/dp/B00ICN066A',
+    url: '',
     images: [ 'media/images/sapiens.JPG' ]
   },
   {
@@ -362,6 +304,59 @@ export const projects = [
     images: [ 'media/images/money.jpeg' ]
   },
   {
+    title: 'Golf Work',
+    group: 'project',
+    subHeading: 'Sometimes dodging golf balls',
+    url: '',
+    images: [ 'media/images/golf.jpg' ]
+  },
+  {
+    title: 'Sumo in Japan',
+    group: 'adventure',
+    subHeading: 'Also pretty big',
+    url: '',
+    images: [ 'media/images/sumo.JPG' ]
+  },
+  {
+    title: 'Earning Confetti',
+    group: 'learning',
+    subHeading: 'Hacker Rank',
+    url: 'https://www.hackerrank.com/ljsimpkin',
+    images: [ 'media/images/confetti.jpg' ]
+  },
+  {
+    title: 'Built in Obsolescence blog',
+    group: 'learning',
+    subHeading: 'Are products built to last?',
+    description: `Located in an old fire station, there exists an incandescent bulb that has been burning for over 100 years. If we have always had the ability to build such a light bulb, why are there not more like this one? One theory is that many of our products today are designed to become obsolete. During the industrial revolution light bulb manufacturers came together to form a cartel. This cartel allegedly agreed to manufacture light bulbs that expired after 1000 hours (XX). This was advertised under the guise that light bulbs with such life spans were safer. That such light bulbs were less prone to exploding, catching fire, and omitting noxious gases (the gas inside the lightbulb is not pure oxygen. It’s a combination of gases that are designed to be inert). However, some people think that it was simply a way to encourage consumers to buy more bulbs. Essentially they believe that these light bulbs were built to become obsolete. On the other hand, another explanation might be that it is much cheaper to produce light bulbs which expire sooner and this is simply what people want. 
+    \n
+    From a perspective of hindsight, it is easy to conjure up such conspiracies by looking at who benefits (quay bono). Apple has been accused for building phones that slow down over time (being incentivised by the sale of their hardware rather than software); IBM delayed the production of its new processor until their existing patent ran out so that people would buy their old one and then replace it when they made their new one; dodgy used cars salesmen who sell cars that last just long enough to void consumer guarantees; and clothes that quickly become out of fashion - otherwise known as fast fashion. The imagination can easily be stretched to view capitalism as being responsible for the unnecessary waste from products built to last long enough to warrant satisfaction, but just short enough to make sustainable fortunes. And for those companies that don’t play ball, the risk of producing a product that is too good is a temporary existence. Pumpkin patch made clothes that were “too good” such that once somebody had purchased them, no-one needed new ones. Hand me downs could last generations. Go pro designed products that were so good that people needn’t buy the latest versions. Or maybe these companies just failed to innovate. 
+    \n
+    Do companies intentionally build products that have an expiry date? Or more importantly, does our economic climate incentivise the production of products that are built to expire? Economic theory predicts that competition would result in people cheating the hold of a cartel in pursuit of their own self interest to take more of the market share. That if there were a demand for longer lasting light bulbs companies would soon scurry to satisfy this demand. This would lead to the production of light bulbs that last much longer, just like the LED ones we have today. Competition has created technologies that overcome the obsolescence problem. Perhaps the problem of built in obsolescence is not as bad as we thought when innovation through competition soon follows.
+    \n
+    Is redundancy and waste just an uninviteable aspect of innovation? One theory that may help solve this problem is the release of ownership. Instead of buying products it might be better if we rented them. This would change the whole incentive structure that builds companies. For example, it would be in a light bulb companies best interest to build bulbs that lasted the longest amount of time. They would also be more inclined to build products that were more recyclable at the end of their life span. One carpet company is already doing this. The rent tiled carpet so that when part of the carpet near the doorway needs replacing, only that part need be replaced. They also recycle the carpet and turn it into other patterns. Such examples of circular economy where the manufacturer internalises the externality of waste has exciting implications on global reductions in waste. 
+    \n
+    Renting may not be the best for everything. We tend to look after our own car better than a rented one. But for products that incur no moral hazard (like light bulbs) perhaps renting is the next step to moving towards a more environmentally friendly economy. Another problem it might have is that it might decrease innovation as companies have fewer incentives to do so. Products aren’t mutating as much as they would because they are living longer lives. 
+    \n
+    Gone are the days of old where tools would last generations the mere thought conjuring up an image of grandad sitting in a rocking chair and saying “things don’t last as long as they used to bag in my day”. `,
+    url: '',
+    images: ['media/images/lightBulb.png']
+  },
+  {
+    title: 'Finance',
+    group: 'learning',
+    subHeading: 'Studying finance at uni and learning how black scholes really is',
+    url: '',
+    images: [ 'media/images/finc.PNG' ]
+  },
+  {
+    title: 'Fixing Things',
+    group: 'learning',
+    subHeading: 'Changin phone screen, updating laptop, and sweatproofing headphones',
+    url: '',
+    images: [ 'media/images/fix.JPG' ]
+  },
+  {
     title: 'Filling boxes like tetris',
     group: 'project',
     subHeading: 'Fit things into anything with this algorithom',
@@ -369,80 +364,59 @@ export const projects = [
     images: [ 'media/images/fillit.JPG' ]
   },
   {
-    title: 'Golf Work',
-    group: 'project',
-    subHeading: 'Sometimes dodging golf balls',
-    url: 'https://www.google.com/search?q=baylands+golf+course&sxsrf=ALeKk0253d6niHoceM_OZ45ZodGYRI6Q2w:1591161760179&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjakfu78-TpAhXfH7cAHYRyC6QQ_AUoAnoECBQQBA&biw=1280&bih=672',
-    images: [ 'media/images/golf.jpg' ]
-  },
-  {
-    title: 'Sumo in Japan',
+    title: 'House rafts in Vietnam!',
     group: 'adventure',
-    subHeading: 'Also pretty big',
-    url: 'https://github.com/ljsimpkin/Fillit',
-    images: [ 'media/images/sumo.JPG' ]
+    subHeading: 'Kayaking around the islands',
+    url: '',
+    images: [ 'media/images/vietnam1.JPG', 'media/images/vietnam2.JPG' ]
   },
-  {
-    title: 'Finance',
-    group: 'learning',
-    subHeading: 'Studying finance at uni and learning how black scholes really is',
-    url: 'https://www.google.com/search?q=Fischer+Black,+Myron+Scholes&sxsrf=ALeKk01oeMjs60_60VSTnLU2XOJTs3jByw:1591162420169&source=lnms&tbm=isch&sa=X&ved=2ahUKEwip1dX29eTpAhWD8HMBHbqLDX4Q_AUoAXoECAwQAw&biw=1280&bih=672',
-    images: [ 'media/images/finc.PNG' ]
-  },
-  {
-    title: 'Fixing Things',
-    group: 'project',
-    subHeading: 'Changin phone screen, updating laptop, and sweatproofing headphones',
-    url: 'https://github.com/ljsimpkin/Fillit',
-    images: [ 'media/images/fix.JPG' ]
-  },
-  {
-    title: 'Table Tennis',
-    group: 'learning',
-    subHeading: 'Self appointed table tennis champ',
-    url: 'https://github.com/ljsimpkin/Fillit',
-    images: [ 'media/images/1.JPG' ]
-  },
-  {
-    title: 'Gymming',
-    group: 'learning',
-    subHeading: 'Using whatevers there in the name of gains',
-    url: 'https://github.com/ljsimpkin/Fillit',
-    images: [ 'media/images/gym.png' ]
-  },
-  {
-    title: 'Bartending',
-    group: 'learning',
-    subHeading: 'Would you like your magereta salted or unsalted?',
-    url: 'https://www.lonestar.co.nz/',
-    images: [ 'media/images/drink.jpg' ]
-  },
+  // {
+  //   title: 'Bartending',
+  //   group: 'learning',
+  //   subHeading: '',
+  //   url: '',
+  //   images: [ 'media/images/drink.jpg' ]
+  // },
   {
     title: 'Milking',
     group: 'learning',
-    subHeading: 'Providing that calcium',
-    url: 'https://github.com/ljsimpkin/Fillit',
+    subHeading: `Milking twice a day on my uncle's farm.`,
+    url: '',
     images: [ 'media/images/cows.JPG' ]
-  },
-  {
-    title: 'Flatting',
-    group: 'learning',
-    subHeading: 'Gordon Ramsay in the house!',
-    url: 'https://github.com/ljsimpkin/Fillit',
-    images: [ 'media/images/food.JPG' ]
   },
   {
     title: 'Landscape Gardening',
     group: 'learning',
     subHeading: "Holes aren't gonna dig themselves",
-    url: 'https://github.com/ljsimpkin/Fillit',
+    url: '',
     images: [ 'media/images/hole.JPG' ]
+  },
+  {
+    title: 'Dolomites Biking',
+    group: 'adventure',
+    subHeading: '5 day road cycling and mountain biking the Dolomites',
+    url: '',
+    images: [ 'media/images/dolomites.jpeg' ]
+  },
+  {
+    title: 'Fast food in Japan',
+    group: 'adventure',
+    subHeading: 'Healthier than my home cooked slow food',
+    url: 'http://mailiam.me/portfolio/#',
+    images: [ 'media/images/raman.JPG', 'media/images/burger.JPG' ]
+  },
+  {
+    title: 'The future of energy',
+    group: 'learning',
+    subHeading: 'Interview with Shannon, CMO of Solar Block',
+    url: 'media/audio/solar_block.mp3',
+    images: [ 'media/images/idea.JPG' ]
   },
   {
     title: 'Painting and Graphics',
     group: 'learning',
-    subHeading: 'What is art? 1st place art and graphics award',
-    url: 'https://sacredheart.school.nz/',
+    subHeading: 'Highschool 1st place in art and graphics award. What is art? ',
+    url: '',
     images: [ 'media/images/art.JPG' ]
   },
   {
@@ -453,18 +427,25 @@ export const projects = [
     images: [ 'media/images/gcdrawing.JPG' ]
   },
   {
-    title: 'Dolomites Biking',
-    group: 'adventure',
-    subHeading: '5 day road cycling and mountain biking the Dolomites',
-    url: 'https://www.google.com/search?q=the+dolomites&rlz=1C5CHFA_enGB929GB929&sxsrf=ALeKk02KQKitQQdslhkY_lYeicQpU6FIIw:1608643795888&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi1iZiQ2eHtAhXBnFwKHSQzC3cQ_AUoAnoECBMQBA',
-    images: [ 'media/images/dolomites.jpeg' ]
+    title: 'Table Tennis',
+    group: 'learning',
+    subHeading: 'Self appointed table tennis champ',
+    url: '',
+    images: [ 'media/images/1.JPG' ]
   },
   {
     title: 'Tripping Italy',
     group: 'adventure',
     subHeading: '16 days exploring Sicily, Naples, and Rome',
-    url: 'https://www.google.com/search?q=the+dolomites&rlz=1C5CHFA_enGB929GB929&sxsrf=ALeKk02KQKitQQdslhkY_lYeicQpU6FIIw:1608643795888&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi1iZiQ2eHtAhXBnFwKHSQzC3cQ_AUoAnoECBMQBA',
+    url: '',
     images: [ 'media/images/Italy.jpeg' ]
+  },
+  {
+    title: 'Gymming',
+    group: 'learning',
+    subHeading: 'Using whatevers there in the name of gains',
+    url: '',
+    images: [ 'media/images/gym.png' ]
   },
   {
     title: 'Contact Tracing',
