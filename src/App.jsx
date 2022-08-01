@@ -67,9 +67,6 @@ function App() {
         <a className="search-button" href="https://ljsimpkin.github.io/resume/" style={{position:'absolute', right: '10px', backgroundColor: 'rgb(223, 225, 226)', color:'black', fontSize: '13px'}}>Resume</a>
       </div>
 
-        
-
-
       <Masonry
         breakpointCols={breakpointConfig}
         className="my-masonry-grid"

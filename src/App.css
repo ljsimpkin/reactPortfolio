@@ -53,6 +53,10 @@ img {
   margin:5px;
   background-color:rgb(223, 225, 226);
   text-decoration: none;
+
+  /* fallback color for mobile */
+  color: grey;
+  color: rgb(55, 54, 54);
 }
 
 .project {
