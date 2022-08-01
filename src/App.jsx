@@ -64,7 +64,7 @@ function App() {
         <button value="adventure" style={{backgroundColor: !isAdventureVisible ? "gray" : null}} className="adventure search-button" onClick={(event)=>toggleVisible(event)}>Adventure</button>
         <button value="learning" style={{backgroundColor: !isLearningVisible ? "gray" : null}} className="learning search-button" onClick={(event)=>toggleVisible(event)}>Learning</button>
         
-        <a className="search-button" href="https://ljsimpkin.github.io/resume/" style={{position:'absolute', right: '10px', textDecoration: 'none', backgroundColor: 'rgb(223, 225, 226)', color:'black', fontSize: '13px'}}>Resume</a>
+        <a className="search-button" href="https://ljsimpkin.github.io/resume/" style={{position:'absolute', right: '10px', backgroundColor: 'rgb(223, 225, 226)', color:'black', fontSize: '13px'}}>Resume</a>
       </div>
 
         
