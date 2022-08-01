@@ -1,11 +1,23 @@
 export const projects = [
   {
-    title: 'Sound Detector',
+    title: 'Dev Invaders',
     group: 'project',
-    subHeading: 'A table tennis app to help you keep track of your rallies with sound',
-    description: `During covid lockdowns I began to play a lot of table tennis and I was interested to think of a project that would teach me about sound recognition and machine learning. I built this app as a quick proof of concept using Google’s Teachable Machine which helped me train and deploy the machine learning model. I then built the front end and hosted it on Github. In the future, I'd like it to be better at detecting false positives – currently you can enable your mic and test it out by clapping!`,
-    url: 'https://ljsimpkin.github.io/table-tennis-counter',
-    images: [ 'media/images/counter.png' ]
+    subHeading: "2D scrolling game made with Phaser",
+    description: `
+    For my final project at Dev Academy, my group and I decided to build a game. None of us had game dev experience nor worked with an object oriented game engine like phaser yet we managed to achieve our finished product in less than a week. We decided the game would be a 2D scroller game kinda like flappy bird but with the ability to shoot enemies and bosses too. 
+    \n
+    My roles were to get the character displayed and moving on the screen, make the spaceship shoot, generate different obstacles, break the code into scenes, and randomly spawn enemies. I also helped the team with debugging, pair programming when teammates were stuck, and contributed a fair share to planning using agile development methods. 
+    \n
+    There were a lot of directions to go in but we knew we wanted to make the game available for everyone with a browser, to have shooting, and the background scrolling. We found a number of possible tools, babylon, unity, phaser, and three js and thought to ourselves how hard could a 2D game be? To give ourselves a challenge let's make it 3D! So we decided on three js, a tool for building 3D objects. We spent the first day researching three js, and began to feel really confident with it. The only problem was it didn’t have all the game mechanics we needed to move objects on the screen and interact with each other. This was a lot of work. We thought long and hard about this but decided to go with Phaser because it was better suited to the goal of building a shooting game. 
+    \n
+    We still had a lot to learn with Phaser. The engine is written in object oriented code which was a style of coding we had never seen before. We started exploring the tool in the style we were used to, but this created issues for us when we chose to move to the new version. After we overcame this, it did a lot of excellent things for us like making objects move around the screen, detect when characters collide with each other, and built the game loop. Making our code object oriented turned out to be really useful as it made us able to break our tasks down and we were able to delegate roles more effectively
+    It was almost time to hand in our game and on the last day we found some pretty serious bugs. Panic stations as we tried to fix them. Our biggest bug by far was this. The player would sometimes run out of bullets and enemies would randomly explode in the middle of the game. It turned out bullets weren’t being destroyed. Instead they stayed on the screen, invisible after they collided with enemies. We managed to fix this by moving the bullets off the screen after a collision. I figured this out and put the final touches on the app to make it mobile compatible. Our game was ready for liftoff! To finish it all off, we presented in front of a group of 70 people with a lot of ease and fun. It was a great experience to be a part of.
+    `,
+    url: 'https://ljsimpkin.github.io/dev-invaders-website/',
+    images: [ 'media/images/devInvaders1.png',
+    'media/images/devInvaders2.png',
+    'media/images/devInvaders3.png',
+    'media/images/devInvaders4.png' ]
   },
   {
     title: 'Time series heat map',
@@ -74,24 +86,12 @@ export const projects = [
     ]
   },
   {
-    title: 'Dev Invaders',
+    title: 'Sound Detector',
     group: 'project',
-    subHeading: "2D scrolling game made with Phaser",
-    description: `
-    For my final project at Dev Academy, my group and I decided to build a game. None of us had game dev experience nor worked with an object oriented game engine like phaser yet we managed to achieve our finished product in less than a week. We decided the game would be a 2D scroller game kinda like flappy bird but with the ability to shoot enemies and bosses too. 
-    \n
-    My roles were to get the character displayed and moving on the screen, make the spaceship shoot, generate different obstacles, break the code into scenes, and randomly spawn enemies. I also helped the team with debugging, pair programming when teammates were stuck, and contributed a fair share to planning using agile development methods. 
-    \n
-    There were a lot of directions to go in but we knew we wanted to make the game available for everyone with a browser, to have shooting, and the background scrolling. We found a number of possible tools, babylon, unity, phaser, and three js and thought to ourselves how hard could a 2D game be? To give ourselves a challenge let's make it 3D! So we decided on three js, a tool for building 3D objects. We spent the first day researching three js, and began to feel really confident with it. The only problem was it didn’t have all the game mechanics we needed to move objects on the screen and interact with each other. This was a lot of work. We thought long and hard about this but decided to go with Phaser because it was better suited to the goal of building a shooting game. 
-    \n
-    We still had a lot to learn with Phaser. The engine is written in object oriented code which was a style of coding we had never seen before. We started exploring the tool in the style we were used to, but this created issues for us when we chose to move to the new version. After we overcame this, it did a lot of excellent things for us like making objects move around the screen, detect when characters collide with each other, and built the game loop. Making our code object oriented turned out to be really useful as it made us able to break our tasks down and we were able to delegate roles more effectively
-    It was almost time to hand in our game and on the last day we found some pretty serious bugs. Panic stations as we tried to fix them. Our biggest bug by far was this. The player would sometimes run out of bullets and enemies would randomly explode in the middle of the game. It turned out bullets weren’t being destroyed. Instead they stayed on the screen, invisible after they collided with enemies. We managed to fix this by moving the bullets off the screen after a collision. I figured this out and put the final touches on the app to make it mobile compatible. Our game was ready for liftoff! To finish it all off, we presented in front of a group of 70 people with a lot of ease and fun. It was a great experience to be a part of.
-    `,
-    url: 'https://ljsimpkin.github.io/dev-invaders-website/',
-    images: [ 'media/images/devInvaders1.png',
-    'media/images/devInvaders2.png',
-    'media/images/devInvaders3.png',
-    'media/images/devInvaders4.png' ]
+    subHeading: 'A table tennis app to help you keep track of your rallies with sound',
+    description: `During covid lockdowns I began to play a lot of table tennis and I was interested to think of a project that would teach me about sound recognition and machine learning. I built this app as a quick proof of concept using Google’s Teachable Machine which helped me train and deploy the machine learning model. I then built the front end and hosted it on Github. In the future, I'd like it to be better at detecting false positives – currently you can enable your mic and test it out by clapping!`,
+    url: 'https://ljsimpkin.github.io/table-tennis-counter',
+    images: [ 'media/images/counter.png' ]
   },
   {
     title: 'Face Detection',
