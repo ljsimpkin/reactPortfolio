@@ -148,7 +148,7 @@ export const projects = [
     subHeading: 'Easy way to solve sudoku',
     description: 'This was one of the group projects during the piscine at 42 Silicon Valley. The objective was to build an algorithom that could solve sudoku puzzles from a standard input. We achieved this by creating a matrix of all the possibilites and then recursively backtracking.',
     url: 'https://github.com/ljsimpkin/Sudoku',
-    images: [ 'media/images/sudoku.PNG' ]
+    images: [ 'media/images/sudoku.png' ]
   },
   {
     title: 'Berkley AI Course',
@@ -418,13 +418,6 @@ export const projects = [
     subHeading: 'Highschool 1st place in art and graphics award. What is art? ',
     url: '',
     images: [ 'media/images/art.JPG' ]
-  },
-  {
-    title: 'Grand Canyon Road Trip',
-    group: 'adventure',
-    subHeading: "It's pretty big",
-    url: 'https://github.com/ljsimpkin/Fillit',
-    images: [ 'media/images/gcdrawing.JPG' ]
   },
   {
     title: 'Table Tennis',
