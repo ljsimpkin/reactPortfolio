@@ -48,6 +48,14 @@ export const projects = [
     ]
   },
   {
+    title: 'Underwater Rugby',
+    group: 'adventure',
+    subHeading: "Playing a sport entirely underwater",
+    description: `What is that I hear you ask? As strange as it sounds, this fantastic team sport is played entirely underwater. I started hesitantly in San Francisco when a friend of mine asked me to come along. It didn’t take long for me to be hooked. I love the feeling of being underwater, the sensation is magical as one can serenely fly around in three dimensions. On top of that, there’s the challenge of getting a small circular ball into a basket at the other end of the pool. With the help of a great team, we work together trying out different strategies. I’ve had the privilege of playing with some of the best players all over the world from America to London, Austria and the world champion Colombians. One of my favorite things about it however, is that it’s a playground for me to improve my physical and mental potential in all aspects of life. Come and give it a try!`,
+    url: '',
+    images: [ 'media/images/underWaterRugby.jpeg' ]
+  },
+  {
     title: 'Cash Blocks',
     group: 'project',
     subHeading: 'A simple UI for creating bitcoin-cash smart contracts',
@@ -116,14 +124,6 @@ export const projects = [
     description: `As part of preparing for dev academy, we were given the project of building a personal blog. This was a great way for us to practice tech skills and explore our career goals. I chose to design my blog in a minimal way with the ability to use CSS variables to easily change the theme colour.`,
     url: 'https://ljsimpkin.github.io/liamsBlog/',
     images: [ 'media/images/myBlog.png' ]
-  },
-  {
-    title: 'Underwater Rugby',
-    group: 'adventure',
-    subHeading: "Playing a sport entirely underwater",
-    description: `What is that I hear you ask? As strange as it sounds, this fantastic team sport is played entirely underwater. I started hesitantly in San Francisco when a friend of mine asked me to come along. It didn’t take long for me to be hooked. I love the feeling of being underwater, the sensation is magical as one can serenely fly around in three dimensions. On top of that, there’s the challenge of getting a small circular ball into a basket at the other end of the pool. With the help of a great team, we work together trying out different strategies. I’ve had the privilege of playing with some of the best players all over the world from America to London, Austria and the world champion Colombians. One of my favorite things about it however, is that it’s a playground for me to improve my physical and mental potential in all aspects of life. Come and give it a try!`,
-    url: '',
-    images: [ 'media/images/underWaterRugby.jpeg' ]
   },
   {
     title: 'Twitter Sentiment Analyser',
