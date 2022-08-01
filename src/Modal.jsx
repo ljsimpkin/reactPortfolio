@@ -1,7 +1,7 @@
 import Masonry from 'react-masonry-css'
 
 function NewlineText(props) {
-  return props.text.split('\n').map(str => <p>{str}</p>);
+  return <div className="modalDescription">{props.text.split('\n').map(str => <p>{str}</p>)}</div>;
 }
 
 function Modal(props) {
@@ -14,9 +14,9 @@ function Modal(props) {
         <h1>{title}</h1>
         <h2>{subHeading}</h2>
         {description && <NewlineText text={description}/>}
-        {url && <a href={url} target="_blank" className="seeMoreButton">See more</a>}
+        {url && <a href={url} target="_blank" className="project search-button" style={{color:"rgb(55, 54, 54)"}}>See more</a>}
         {images.map(image => 
-          <img src={image}></img>
+          <img className="modalImage" src={image}></img>
         )}
       </div>
     </div>

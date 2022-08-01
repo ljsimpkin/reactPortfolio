@@ -59,11 +59,16 @@ function App() {
 
     <div className="App">
 
-      <div id="search-button" className="button-toggle">
+      <div >
         <button value="project" style={{backgroundColor: !isProjectVisible ? "gray" : null}} className="project search-button" onClick={(event)=>toggleVisible(event)}>Projects</button>
         <button value="adventure" style={{backgroundColor: !isAdventureVisible ? "gray" : null}} className="adventure search-button" onClick={(event)=>toggleVisible(event)}>Adventure</button>
         <button value="learning" style={{backgroundColor: !isLearningVisible ? "gray" : null}} className="learning search-button" onClick={(event)=>toggleVisible(event)}>Learning</button>
+        
+        <a className="search-button" href="https://ljsimpkin.github.io/resume/" style={{position:'absolute', right: '10px', textDecoration: 'none', backgroundColor: 'rgb(223, 225, 226)', color:'black', fontSize: '13px'}}>Resume</a>
       </div>
+
+        
+
 
       <Masonry
         breakpointCols={breakpointConfig}
