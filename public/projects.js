@@ -148,7 +148,7 @@ export const projects = [
     subHeading: 'Easy way to solve sudoku',
     description: 'This was one of the group projects during the piscine at 42 Silicon Valley. The objective was to build an algorithom that could solve sudoku puzzles from a standard input. We achieved this by creating a matrix of all the possibilites and then recursively backtracking.',
     url: 'https://github.com/ljsimpkin/Sudoku',
-    images: [ 'media/images/sudoku.png' ]
+    images: [ 'media/images/sudoku.jpeg' ]
   },
   {
     title: 'Berkley AI Course',
@@ -247,14 +247,14 @@ export const projects = [
     title: 'Brand Stunts',
     group: 'learning',
     subHeading: 'Pulling off crazy tricks in the name of brand!',
-    url: 'mailiam.me',
+    url: '',
     images: [ 'media/images/ue1.png', 'media/images/ue2.png' ]
   },
   {
     title: 'Ocean Swimming',
     group: 'adventure',
     subHeading: 'Completed the bean rock ocean swim advance mode. Note to self: The shortest distance between two points is a straight line',
-    url: 'mailiam.me',
+    url: '',
     images: [ 'media/images/bean rock.JPG' ]
   },
   {
@@ -300,7 +300,7 @@ export const projects = [
     title: 'MAKING MILLIONS of mistakes',
     group: 'project',
     subHeading: 'Learning investment strategies',
-    url: 'https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari-ebook/dp/B00ICN066A',
+    url: '',
     images: [ 'media/images/money.jpeg' ]
   },
   {
@@ -402,7 +402,7 @@ export const projects = [
     title: 'Fast food in Japan',
     group: 'adventure',
     subHeading: 'Healthier than my home cooked slow food',
-    url: 'http://mailiam.me/portfolio/#',
+    url: '',
     images: [ 'media/images/raman.JPG', 'media/images/burger.JPG' ]
   },
   {
