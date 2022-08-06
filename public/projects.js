@@ -73,7 +73,7 @@ export const projects = [
 
     My task was to learn how to tile from scratch and then implement it. After watching a number of youtube videos and asking my uncle for building advice, I went to different hardware stores to buy the tools and material. Here I encountered my first problem: the tile concrete I bought was rigid instead of flexible. Luckily my dad noticed this before I started and then off I went to the tile store to get some specialist advice this time around. \n
     
-    With some patience, most of the tiles were fairly straightforward to cut once I became comfortable using the tile cutter; the challenge was ccurving the tiles around the base of the showers and pipes. Through a lot of research, practice and a few broken tiles, I perfected the art of the curve by scoring, cutting teeth shapes, and finely smoothening the edge with an angle grinder.\n
+    With some patience, most of the tiles were fairly straightforward to cut once I became comfortable using the tile cutter; the challenge was curving the tiles around the base of the showers and pipes. Through a lot of research, practice and a few broken tiles, I perfected the art of the curve by scoring, cutting teeth shapes, and finely smoothening the edge with an angle grinder.\n
     
     I am super happy with the result and finished it to a standard that looks very professional. It took me 2 months to do 2 bathrooms. Being really meticulous helped a lot as I would patiently redo a tile if I wasn’t happy with it. Also being organised helped a lot as did a lot of planning with my Dad to decide on the layout and design.
     \n
@@ -97,7 +97,7 @@ export const projects = [
     title: 'Sound Detector',
     group: 'project',
     subHeading: 'A table tennis app to help you keep track of your rallies with sound',
-    description: `During covid lockdowns I began to play a lot of table tennis and I was interested to think of a project that would teach me about sound recognition and machine learning. I built this app as a quick proof of concept using Google’s Teachable Machine which helped me train and deploy the machine learning model. I then built the front end and hosted it on Github. In the future, I'd like it to be better at detecting false positives – currently you can enable your mic and test it out by clapping!`,
+    description: `During covid lockdowns I began to play a lot of table tennis and I was interested in projects that would teach me about sound recognition and machine learning. I built this app as a quick proof of concept using Google’s Teachable Machine which helped me train and deploy the machine learning model. I then built the front end and hosted it on Github. In the future, I'd like it to be better at detecting false positives – currently you can enable your mic and test it out by clapping!`,
     url: 'https://ljsimpkin.github.io/table-tennis-counter',
     images: [ 'media/images/counter.png' ]
   },
@@ -105,7 +105,7 @@ export const projects = [
     title: 'Face Detection',
     group: 'project',
     subHeading: "This app detects your face and plays your walk in music (or dog barking noises if you're a bit sus). Works on your GoPro too!",
-    description: "Being fascinated by image detection, I built an app that identifies people and plays their walk-in music. If the person isn’t recognised, scare away intruders with dog barking noises instead. The technical challenge was connecting the program to the input video feed from my GoPro (which could wirelessly transmit the video!). After that, the problem was my GoPro could only transmit low-quality video and the program needed to have a higher quality image to identify people at a reasonable distance. So, I used a motion detector program too, which detected movement and then triggered the GoPro to take a photo and send it to the computer. This dramatically increased the range a person could be detected, enabling their walk-in music to be played on time! I built this using Python, Google’s OpenCV, a GoPro API, and also used a pre-trained facial recognition library.",
+    description: "Being fascinated by image detection, I built an app that identifies people and plays their walk-in music. If the person isn’t recognised, scare away intruders with dog barking noises instead.\nThe technical challenge was connecting the program to the input video feed from my GoPro (which could wirelessly transmit the video!). After that, the problem was my GoPro could only transmit low-quality video and the program needed to have a higher quality image to identify people at a reasonable distance. So, I used a motion detector program too, which detected movement and then triggered the GoPro to take a photo and send it to the computer. This dramatically increased the range a person could be detected, enabling their walk-in music to be played on time! I built this using Python, Google’s OpenCV, a GoPro API, and detected faces with the pre-trained library face_detection on Github.",
     url: 'https://github.com/ljsimpkin/image_recognition/blob/master/README.md',
     images: [ 'media/images/Obama.jpg' ]
   },
@@ -439,6 +439,20 @@ export const projects = [
     subHeading: 'Using whatevers there in the name of gains',
     url: '',
     images: [ 'media/images/gym.png' ]
+  },
+  {
+    title: 'Dev Who',
+    group: 'project',
+    subHeading: 'Guess who but for superheroes',
+    url: 'https://dev-who.herokuapp.com',
+    images: [ 'media/images/devwho.png' ]
+  },
+  {
+    title: 'Sharing is Caring',
+    group: 'project',
+    subHeading: 'App to enable students to share things',
+    url: 'https://github.com/matai-2022/sharingIsCaring',
+    images: [ '' ]
   },
   {
     title: 'Contact Tracing',
