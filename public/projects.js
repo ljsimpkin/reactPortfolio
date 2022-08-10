@@ -27,6 +27,23 @@ export const projects = [
     url: 'https://ljsimpkin.github.io/Time-series-heat-map/',
     images: [ 'media/images/map.png' ]
   },
+
+  {
+    title: '42 Silicon Valley',
+    group: 'learning',
+    subHeading: 'Learning to code in Silicon Valley!',
+    description: `Located on the edge of silicon valley across the water from Google and Facebook, and next door to Tesla, there existed a school called 42. \n
+
+    42 Silicon Valley is a school like no other. It’s completely free, has no teachers, and students solve problems by asking friends for help and finding out for themselves. Entries are competitive, and to be accepted you have to pass a 1 month gruelling application process called the piscine, French for “swimming pool”, where you code on individual and group projects every day to see who can swim.  \n
+    
+    While I was there, I dived into algorithms, learnt about using loops, recursion, compilers, building scripts with bash, how to debug, and check memory leaks. We learnt everything in C so afterwards, when I did some ML courses and later the Data Science internship, the coding element was surprisingly quick for me to learn. 42 has strengthened my self belief and I have since done a lot of project-based learning: Deploying an ML app with Google’s teachable machine, making a wireless face detection security camera, and building a couple of blockchain apps – one of which for a hackathon that won our team prize money! \n
+    
+    42 Silicon Valley has since closed because of covid but tons of other schools have popped up all around the world, franchising the curriculum, and creating a worldwide standard for beginning your coding journey with C.
+    `,
+    url: '',
+    images: [ 'media/images/42.jpeg',
+    'media/images/42_2.JPG' ]
+  },
   {
     title: 'Money Motivate',
     group: 'project',
@@ -202,16 +219,6 @@ export const projects = [
     subHeading: '42 Silicon Valley Twitter project',
     url: 'https://twitter.com/5impkin',
     images: [ 'media/images/twit.png' ]
-  },
-  {
-    title: '42 Silicon Valley',
-    group: 'learning',
-    subHeading: 'Learning to code in Silicon Valley!',
-    description: `42 Silicon Valley is a school like no other. The school had no teachers and students solved problems by asking each other for help and finding out for themselves. While I was there, I dived into algorithms, learnt about using loops, recursion, compilers, and how to check memory leaks. We learnt everything in C so afterwards, when I did some ML courses and later the Data Science internship, the coding element was surprisingly quick for me to learn. 42 has strengthened my self belief and I have since done a lot of project-based learning: Deploying an ML app with Google’s teachable machine, making a wireless face detection security cameras, and building a couple of blockchain apps – one of which for a hackathon that won our team prize money!
-    `,
-    url: '',
-    images: [ 'media/images/42.jpeg',
-    'media/images/42_2.jpg' ]
   },
   {
     title: 'Thai Kickboxing',
@@ -452,6 +459,13 @@ export const projects = [
     group: 'project',
     subHeading: 'App to enable students to share things',
     url: 'https://github.com/matai-2022/sharingIsCaring',
+    images: [ '' ]
+  },
+  {
+    title: 'Chorely',
+    group: 'project',
+    subHeading: 'Deligate chores randomly!',
+    url: 'https://github.com/matai-2022/Saitama',
     images: [ '' ]
   },
   {
