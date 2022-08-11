@@ -76,6 +76,14 @@ function App() {
 
       {modelProps && <Modal project={modelProps} setModel={setModel}/>}
       
+      <div className="closingTag">
+        <h4>
+          This website does not track you because it's designed that way but I would still love to hear your feedback.
+          What was most captivating, and what could be improved?
+        </h4>
+        <h4>Thanks for checking out my portfolio! </h4>
+        <h4>Enthusiastically crafted by Liam Simpkin 🔬</h4>
+      </div>
     </div>
   )
 }

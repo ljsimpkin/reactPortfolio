@@ -45,12 +45,12 @@ export const projects = [
     'media/images/42_2.JPG' ]
   },
   {
-    title: 'Money Motivate',
+    title: 'GoPro Security Camera',
     group: 'project',
-    subHeading: 'An app that helps you stay focused, with money. #Smart_Contracts #Blockchain #Buzzwords!',
-    description: `A motivational app that helps you avoid using your screen by locking away your money. Set a timer, deposit Ethereum, and watch as you resist the urge to use your computer. Break your promise, and your deposit may disappear forever! I built this with Ethereum’s Solidity language, the Web3 library, and JS/HTML/CSS. The project taught me a lot about smart contracts, blockchain, and the importance of test-driven development. `,
-    url: 'https://ljsimpkin.github.io/web_test/',
-    images: [ 'media/images/LogoDraft.png' ]
+    subHeading: "This app detects your face and plays your walk in music (or dog barking noises if you're a bit sus). Works on your GoPro too!",
+    description: "Being fascinated by image detection, and honestly somewhat frightened too, I built an app that identifies people and plays their walk-in music. If the person isn’t recognised, scare away intruders with dog barking noises instead.\nThe technical challenge was connecting the program to the input video feed from my GoPro (which could wirelessly transmit the video!). After that, the problem was my GoPro could only transmit low-quality video and the program needed to have a higher quality image to identify people at a reasonable distance. So, I used a motion detector program too, which detected movement and then triggered the GoPro to take a photo and send it to the computer. This dramatically increased the range a person could be detected, enabling their walk-in music to be played on time! I built this using Python, Google’s OpenCV, a GoPro API, and detected faces with the pre-trained library face_detection on Github.",
+    url: 'https://github.com/ljsimpkin/image_recognition/blob/master/README.md',
+    images: [ 'media/images/face.jpeg' ]
   },
   {
     title: 'Flutter mobile app',
@@ -119,20 +119,20 @@ export const projects = [
     images: [ 'media/images/counter.png' ]
   },
   {
-    title: 'Face Detection',
-    group: 'project',
-    subHeading: "This app detects your face and plays your walk in music (or dog barking noises if you're a bit sus). Works on your GoPro too!",
-    description: "Being fascinated by image detection, I built an app that identifies people and plays their walk-in music. If the person isn’t recognised, scare away intruders with dog barking noises instead.\nThe technical challenge was connecting the program to the input video feed from my GoPro (which could wirelessly transmit the video!). After that, the problem was my GoPro could only transmit low-quality video and the program needed to have a higher quality image to identify people at a reasonable distance. So, I used a motion detector program too, which detected movement and then triggered the GoPro to take a photo and send it to the computer. This dramatically increased the range a person could be detected, enabling their walk-in music to be played on time! I built this using Python, Google’s OpenCV, a GoPro API, and detected faces with the pre-trained library face_detection on Github.",
-    url: 'https://github.com/ljsimpkin/image_recognition/blob/master/README.md',
-    images: [ 'media/images/Obama.jpg' ]
-  },
-  {
     title: 'Whack A Mole',
     group: 'project',
     subHeading: "Try and catch all the moles before the time runs out!",
     description: "As part of preparation for Dev Academy, our task was to create a Whack A Mole game with vanilla javascript. It was a fun project and I found myself playing the game way more than expected because of the 10 second timer and habit of constantly wanting to beat my high score. We were given a starting grid and then were tasked to display moles in the grid, have them disappear on clicks, and reappear in a random location. For some stretch goals, I decided to add a timer and a highscore that was saved locally. I also changed the design and added a hammer cursor for good effect.",
     url: 'https://ljsimpkin.github.io/javascript-carnival-liam/whack-a-mole/whack-a-mole.html',
     images: [ 'media/images/whack-a-mole.png' ]
+  },
+  {
+    title: 'Money Motivate',
+    group: 'project',
+    subHeading: 'An app that helps you stay focused, with money. #Smart_Contracts #Blockchain #Buzzwords!',
+    description: `A motivational app that helps you avoid using your screen by locking away your money. Set a timer, deposit Ethereum, and watch as you resist the urge to use your computer. Break your promise, and your deposit may disappear forever! I built this with Ethereum’s Solidity language, the Web3 library, and JS/HTML/CSS. The project taught me a lot about smart contracts, blockchain, and the importance of test-driven development. `,
+    url: 'https://ljsimpkin.github.io/web_test/',
+    images: [ 'media/images/LogoDraft.png' ]
   },
   {
     title: 'Personal Blog',
@@ -465,7 +465,7 @@ export const projects = [
     title: 'Chorely',
     group: 'project',
     subHeading: 'Deligate chores randomly!',
-    url: 'https://github.com/matai-2022/Saitama',
+    url: 'https://ljsimpkin.github.io/Chorely/',
     images: [ '' ]
   },
   {

@@ -125,3 +125,7 @@ img {
 .modalDescription {
   margin-bottom: 30px;
 }
+
+.closingTag {
+  text-align: center;
+}
