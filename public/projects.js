@@ -305,7 +305,7 @@ export const projects = [
   },
   {
     title: 'MAKING MILLIONS of mistakes',
-    group: 'project',
+    group: 'learning',
     subHeading: 'Learning investment strategies',
     url: '',
     images: [ 'media/images/money.jpeg' ]
