@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: 'Votley',
+    group: 'project',
+    subHeading: 'A party game voting app',
+    description: 'Built to help groups make decisions, this project taught me a lot about about web sockets with socket.io, how to break down projects with spikes, data structures, one directional data flow which enables testing, designing using figma, and how to deploy with heroku for the back end and github pages for the front end.',
+    url: 'https://ljsimpkin.github.io/votey/',
+    images: [ 'media/images/votley.png',  'media/images/votey 1.png', 'media/images/votey 1.png','media/images/votey 2.png','media/images/votey 3.png' ]
+  },
+  {
     title: 'Dev Invaders',
     group: 'project',
     subHeading: "2D scrolling game made with Phaser",
