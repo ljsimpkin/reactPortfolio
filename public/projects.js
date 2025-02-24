@@ -1,5 +1,37 @@
 export const projects = [
   {
+    title: 'AI Chatbot',
+    group: 'project',
+    subHeading: 'An AI Agent for anything',
+    description: 'In 2022 when ChatGPT came out, I was blown by the progress of language models and I started to experiment with my own. I built commandline tools that helped me become a super user in the terminal, reminding me of all the tricky commands I would otherwise Google. At the same time, I started building an all in one chatbot that can use many different AI models on their own and together. It has been a really exciting time keeping up with the progress on huggging face, learning about brilliant voice transcription models like Whisper, incredibly uncanny (and scary) text to voice models, and many other generative tools like stable diffusion, Sora, and different language models closed and open source. One of the main uses I find myself using my chatbot for is summarising very long YouTube videos.',
+    url: '',
+    images: [ 'media/images/meta.png' ]
+  },
+  {
+    title: 'EuroKo 2024',
+    group: 'learning',
+    subHeading: 'A ruby conference in Bosnia Sarijevo!',
+    description: 'I returned from the largest Ruby conference I’ve been to, EuRuKo in Sarajevo. Alongside meeting the creator of Ruby, here are some of my highlights: AI agents: Andrei and Riccardo demonstrated how to use LangChain.rb and Gemini to create AI agents. The main realisation for me was how you can make your language models use function calls;  effectively giving them memory and the ability to interact with your application. For example, when managing an online store or remembering your workout plan, you can now interact with your agent to update the inventory or switch a light on or off. Listening to the founder of Ruby, Matz (pictured above). It seems obvious but some of the biggest changes in a program language are driven by the biggest players who use that language. In Ruby’s case, Shopify sponsored the creation of a much more efficient JIT compiler which saves them $1 million each year and makes the programming language more efficient for everyone. Matz has a lot more planned for Ruby; along with making it faster, you will soon be able to run multiple versions of gems at the same time - useful for the many versions of JSON. In the last year, Ruby Wasm came out too and you can now run full-size applications on the client side. I can’t wait to see what people build with this! And lastly, microcontrollers are awesome! In a brilliant workshop led by Hitoshi HASUMI we built a thermometer that displays the temperature on a LCD screen with a LED light that signals different temperature ranges. I made it run on boot when plugged into the cigarette lighter of the car and ran it continuously for the rest of my trip. Essential travel equipment for whenever you’re on the road! Pre-order yours now 😁',
+    url: 'https://2024.euruko.org/',
+    images: [ 'media/images/matz.jpg',  'media/images/lecture.jpg', 'media/images/micro.jpg' ]
+  },
+  {
+    title: 'Safe to swim microcontroller',
+    group: 'project',
+    subHeading: 'How do you know if its safe to swim?',
+    description: 'A micro controller that tells you if its safe to swim by glowing a little green light. This project uses the safe swim api and would check every 5 seconds for real time safe swimming updates (even thought he website only updates every 4 hours...) Since then, the project now updates every hour',
+    url: 'https://github.com/ljsimpkin/micro-swim',
+    images: [ 'media/images/safe.jpeg' ]
+  },
+  {
+    title: 'Rangitoto Swim',
+    group: 'adventure',
+    subHeading: '3rd time lucky 🍀',
+    description: 'I completed the Rangitoto swim 45 minutes faster than previously! Very happy to complete the 4.6k swim in under 2 hours. Picture is not an accurate representation 😂',
+    url: 'https://www.strava.com/activities/13513434775',
+    images: [ 'media/images/rangitoto.jpg' ]
+  },
+  {
     title: 'Votley',
     group: 'project',
     subHeading: 'A party game voting app',
@@ -86,9 +118,7 @@ export const projects = [
     subHeading: 'A simple UI for creating bitcoin-cash smart contracts',
     description: `A low code tool for developing smart contracts. I developed this in a team at the Coin Party hackathon. My role focused on building the backend that translated user input into smart contracts. To make it simpler, we focused on one use case: splitting finances into multiple accounts, helping merchants pay their employees and suppliers. Projects were presented and voted on and we won $700! I built this with Bitcoin Cash, using the mainnet.cash library.`,
     url: 'https://devpost.com/software/cash-blocks',
-    images: [
-      'https://res.cloudinary.com/devpost/image/fetch/s--AtmSSPeY--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://fintechreview.net/wp-content/uploads/2021/01/flowchart.jpg'
-    ]
+    images: ['media/images/cash_blocks.jpg']
   },
   {
     title: 'Tiling',
@@ -283,9 +313,10 @@ export const projects = [
     title: 'Agri tech startup - Beekeeping',
     group: 'project',
     subHeading: 'Great experience learning about all things bees',
+    description: 'Upon returning back to New Zealand I messaged a bunch of NZ tech startups to work at. Darren, the founder of MyApiary a beekeeping management tool, took me under his wing and I began learning all things bees and the business challenges that were overcome to get them where they are today.',
     url: 'https://www.myapiary.com/',
     images: [
-      'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/271/honeybee_1f41d.png'
+      'media/images/myapiary.jpg'
     ]
   },
   {
