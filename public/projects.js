@@ -3,7 +3,7 @@ export const projects = [
     title: '🪂 Kiwichute',
     group: 'project',
     subHeading: 'A fun countdown timer for New Zealand events',
-    description: 'Guide your kiwi down to safety before the time runs out!',
+    description: 'Guide your kiwi down to safety before the time runs out! \n\nProject built to learn more about agentic coding techniques.',
     url: 'https://liamsimpkin.com/kiwichute',
     images: [ 'media/images/kiwichute.png' ]
   },
