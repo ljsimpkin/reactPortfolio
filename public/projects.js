@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: '🪂 Kiwichute',
+    group: 'project',
+    subHeading: 'A fun countdown timer for New Zealand events',
+    description: 'Guide your kiwi down to safety before the time runs out!',
+    url: 'https://liamsimpkin.com/kiwichute',
+    images: [ 'media/images/kiwichute.png' ]
+  },
+  {
     title: 'AI Chatbot',
     group: 'project',
     subHeading: 'An AI Agent for anything',
