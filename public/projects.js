@@ -8,6 +8,14 @@ export const projects = [
     images: [ 'media/images/meta.png' ]
   },
   {
+    title: '◎ Loop Time',
+    group: 'project',
+    subHeading: 'A timer made of circles with 3D effects',
+    description: 'Three synchronized rings track overall progress (outer), hourly cycles (middle), and minute cycles (inner). When the countdown completes, the rings transform into a rotating 3D gyroscope.',
+    url: 'https://liamsimpkin.com/%E2%97%8E/?start=2025-01-01T00:00:00+13:00&end=2025-01-01T12:00:00+13:00',
+    images: [ 'media/images/loop.png' ]
+  },
+  {
     title: 'EuroKo 2024',
     group: 'learning',
     subHeading: 'A ruby conference in Bosnia Sarijevo!',
