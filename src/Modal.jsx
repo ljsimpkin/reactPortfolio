@@ -17,6 +17,9 @@ function Modal(props) {
   return (
     <div className="modal" onClick={()=>props.setModel(null)}>
       <div className="modal-content" onClick={e => e.stopPropagation()}>
+        <div className={`modal-header ${group}`}>
+          <span onClick={()=>props.setModel(null)} className="modal-close">✕</span>
+        </div>
         <div className="modal-images" ref={imagesRef} onScroll={handleScroll}>
           {images.map((image, i) =>
             <img key={i} src={image}></img>
@@ -25,12 +28,11 @@ function Modal(props) {
             <div className="scroll-hint" style={{opacity: chevronVisible ? 1 : 0}}>&#8964;</div>
           }
         </div>
-        <div className="modal-text">
-          <span onClick={()=>props.setModel(null)} className="close">&times;</span>
+        <div className={`modal-text ${group}-theme`}>
           <h1>{title}</h1>
           <h2>{subHeading}</h2>
           {description && <NewlineText text={description}/>}
-          {url && <a href={url} target="_blank" className="project search-button">See more</a>}
+          {url && <a href={url} target="_blank" className={`${group} see-more-button search-button`}>See more →</a>}
         </div>
       </div>
     </div>
