@@ -115,6 +115,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 2vh;
   background-color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.7);
   animation: modal-backdrop-in 0.15s ease-out;
