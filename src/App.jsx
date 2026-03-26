@@ -9,9 +9,9 @@ import Tile from './Tile'
 function App() {
   const breakpointConfig = {
     default: 4,
-    1100: 3,
-    700: 2,
-    500: 1
+    1500: 3,
+    1200: 2,
+    850: 1
   };
 
   const [isProjectVisible, setProjectVisible] = useState(true)
