@@ -20,19 +20,21 @@ function Modal(props) {
         <div className={`modal-header ${group}`}>
           <span onClick={()=>props.setModel(null)} className="modal-close">✕</span>
         </div>
-        <div className="modal-images" ref={imagesRef} onScroll={handleScroll}>
-          {images.map((image, i) =>
-            <img key={i} src={image}></img>
-          )}
-          {images.length > 1 &&
-            <div className="scroll-hint" style={{opacity: chevronVisible ? 1 : 0}}>&#8964;</div>
-          }
-        </div>
-        <div className={`modal-text ${group}-theme`}>
-          <h1>{title}</h1>
-          <h2>{subHeading}</h2>
-          {description && <NewlineText text={description}/>}
-          {url && <a href={url} target="_blank" className={`${group} see-more-button search-button`}>See more →</a>}
+        <div className="modal-scroll-body">
+          <div className="modal-images" ref={imagesRef} onScroll={handleScroll}>
+            {images.map((image, i) =>
+              <img key={i} src={image}></img>
+            )}
+            {images.length > 1 &&
+              <div className="scroll-hint" style={{opacity: chevronVisible ? 1 : 0}}>&#8964;</div>
+            }
+          </div>
+          <div className={`modal-text ${group}-theme`}>
+            <h1>{title}</h1>
+            <h2>{subHeading}</h2>
+            {description && <NewlineText text={description}/>}
+            {url && <a href={url} target="_blank" className={`${group} see-more-button search-button`}>See more →</a>}
+          </div>
         </div>
       </div>
     </div>
