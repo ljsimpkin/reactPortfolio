@@ -128,6 +128,10 @@ img {
   border-radius: 8px;
 }
 
+.scroll-hint {
+  display: none;
+}
+
 @media (min-width: 850px) {
   .modal-content {
     display: grid;
@@ -193,10 +197,6 @@ img {
   justify-content: flex-end;
   grid-column: 1 / -1;
   margin: -20px -20px 0 -20px;
-}
-
-.scroll-hint {
-  display: none;
 }
 
 .modal-close {
