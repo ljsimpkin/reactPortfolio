@@ -1,12 +1,25 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
+
+const BASE_X = -15
+const BASE_Y = 20
 
 function IsoModal({ project, setModel }) {
   const { title, group, subHeading, description, url, images } = project
   const [open, setOpen] = useState(false)
+  const [rotation, setRotation] = useState({ x: BASE_X, y: BASE_Y })
+  const boxRef = useRef(null)
 
   useEffect(() => {
     requestAnimationFrame(() => setOpen(true))
   }, [])
+
+  function handleMouseMove(e) {
+    const { innerWidth, innerHeight } = window
+    // Map mouse position to ±15deg around the base angles
+    const offsetY = ((e.clientY / innerHeight) - 0.5) * 30
+    const offsetX = ((e.clientX / innerWidth) - 0.5) * 30
+    setRotation({ x: BASE_X - offsetY, y: BASE_Y + offsetX })
+  }
 
   function handleClose() {
     setOpen(false)
@@ -14,9 +27,13 @@ function IsoModal({ project, setModel }) {
   }
 
   return (
-    <div className="iso-overlay" onClick={handleClose}>
+    <div className="iso-overlay" onClick={handleClose} onMouseMove={handleMouseMove}>
       <div className="iso-scene" onClick={e => e.stopPropagation()}>
-        <div className={`iso-box ${open ? 'open' : ''}`}>
+        <div
+          ref={boxRef}
+          className={`iso-box ${open ? 'open' : ''}`}
+          style={open ? { transform: `rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)` } : undefined}
+        >
 
           <div className="iso-face iso-left">
             <img src={images[0]} alt={title} />
