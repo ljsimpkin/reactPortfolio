@@ -129,3 +129,144 @@ img {
 .closingTag {
   text-align: center;
 }
+
+/* ── Isometric popup building ── */
+
+.iso-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iso-scene {
+  perspective: 900px;
+  perspective-origin: 60% 10%;
+}
+
+:root {
+  --box-w: 520px;
+  --box-h: 420px;
+  --box-d: 320px;
+}
+
+.iso-box {
+  position: relative;
+  width: var(--box-w);
+  height: var(--box-h);
+  transform-style: preserve-3d;
+  transform: rotateX(-15deg) rotateY(20deg) translateY(140px);
+  opacity: 0;
+  transition:
+    transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1),
+    opacity 0.3s ease;
+}
+
+.iso-box.open {
+  transform: rotateX(-15deg) rotateY(20deg) translateY(0);
+  opacity: 1;
+}
+
+.iso-face {
+  position: absolute;
+  pointer-events: all;
+  overflow: hidden;
+}
+
+/* Left face — project image */
+.iso-left {
+  width: var(--box-w);
+  height: var(--box-h);
+  background: #fff;
+  box-shadow: -4px 4px 20px rgba(0,0,0,0.15);
+}
+
+.iso-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Right face — description */
+.iso-right {
+  width: var(--box-d);
+  height: var(--box-h);
+  left: var(--box-w);
+  top: 0;
+  transform-origin: left center;
+  transform: rotateY(-90deg);
+  background: #f8f8f8;
+  box-shadow: 4px 4px 20px rgba(0,0,0,0.1);
+}
+
+.iso-right-inner {
+  padding: 16px;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.iso-right-inner h1 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 6px 0;
+}
+
+.iso-right-inner h2 {
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  opacity: 0.7;
+}
+
+.iso-right-inner p {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  margin: 0 0 8px 0;
+}
+
+/* Floor face — button */
+.iso-floor {
+  width: var(--box-w);
+  height: var(--box-d);
+  top: var(--box-h);
+  left: 0;
+  transform-origin: top center;
+  transform: rotateX(90deg);
+  background: #efefef;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.iso-floor-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 100%;
+}
+
+.iso-close-btn {
+  border: none;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0px 2px 2px #888888;
+  background-color: rgb(223, 225, 226);
+  color: rgb(55, 54, 54);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.iso-no-url {
+  font-size: 0.85rem;
+  opacity: 0.5;
+}
+
+/* Suppress tile hover scale when modal is open */
+.has-modal .my-masonry-grid_column > div:hover {
+  transform: none;
+  box-shadow: 1px 2px 5px #888888;
+}

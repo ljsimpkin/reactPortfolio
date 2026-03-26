@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { projects } from '../public/projects.js'
 
 import Masonry from 'react-masonry-css'
-import Modal from './Modal'
+import IsoModal from './IsoModal'
 import Tile from './Tile'
 
 function App() {
@@ -57,7 +57,7 @@ function App() {
 
   return (
 
-    <div className="App">
+    <div className={`App ${modelProps ? 'has-modal' : ''}`}>
 
       <div >
         <button value="project" style={{backgroundColor: !isProjectVisible ? "gray" : null}} className="project search-button" onClick={(event)=>toggleVisible(event)}>Projects</button>
@@ -74,7 +74,7 @@ function App() {
         {tiles}
       </Masonry>
 
-      {modelProps && <Modal project={modelProps} setModel={setModel}/>}
+      {modelProps && <IsoModal project={modelProps} setModel={setModel}/>}
       
       <div className="closingTag">
         <h4>
