@@ -128,7 +128,7 @@ img {
   border-radius: 8px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .modal-content {
     display: grid;
     grid-template-columns: 1.4fr 1fr;
