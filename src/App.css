@@ -242,6 +242,7 @@ img {
   transform: rotateX(90deg);
   background: #efefef;
   box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  position: absolute;
 }
 
 .iso-floor-inner {
@@ -252,15 +253,26 @@ img {
   height: 100%;
 }
 
+.iso-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
 .iso-close-btn {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
   border: none;
   border-radius: 12px;
-  padding: 15px;
+  padding: 10px 14px;
   box-shadow: 0px 2px 2px #888888;
   background-color: rgb(223, 225, 226);
   color: rgb(55, 54, 54);
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  z-index: 1;
 }
 
 .iso-no-url {

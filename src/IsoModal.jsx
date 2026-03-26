@@ -4,7 +4,7 @@ const BASE_X = -15
 const BASE_Y = 20
 
 function IsoModal({ project, setModel }) {
-  const { title, group, subHeading, description, url, images } = project
+  const { title, subHeading, description, url, images } = project
   const [open, setOpen] = useState(false)
   const [rotation, setRotation] = useState({ x: BASE_X, y: BASE_Y })
   const boxRef = useRef(null)
@@ -48,13 +48,11 @@ function IsoModal({ project, setModel }) {
           </div>
 
           <div className="iso-face iso-floor">
-            <div className="iso-floor-inner">
-              {url
-                ? <a href={url} target="_blank" rel="noreferrer" className={`${group} search-button`}>See more</a>
-                : <span className="iso-no-url">Coming soon</span>
-              }
-              <button className="iso-close-btn" onClick={handleClose}>✕ Close</button>
-            </div>
+            {url
+              ? <iframe src={url} title={title} className="iso-iframe" />
+              : <div className="iso-floor-inner"><span className="iso-no-url">Coming soon</span></div>
+            }
+            <button className="iso-close-btn" onClick={handleClose}>✕ Close</button>
           </div>
 
         </div>
