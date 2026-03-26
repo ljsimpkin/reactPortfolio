@@ -9,9 +9,9 @@ import Tile from './Tile'
 function App() {
   const breakpointConfig = {
     default: 4,
-    1100: 3,
-    700: 2,
-    500: 1
+    1500: 3,
+    1200: 2,
+    850: 1
   };
 
   const [isProjectVisible, setProjectVisible] = useState(true)
@@ -59,7 +59,7 @@ function App() {
 
     <div className="App">
 
-      <div >
+      <div className="top-bar">
         <button value="project" style={{backgroundColor: !isProjectVisible ? "gray" : null}} className="project search-button" onClick={(event)=>toggleVisible(event)}>Projects</button>
         <button value="adventure" style={{backgroundColor: !isAdventureVisible ? "gray" : null}} className="adventure search-button" onClick={(event)=>toggleVisible(event)}>Adventure</button>
         <button value="learning" style={{backgroundColor: !isLearningVisible ? "gray" : null}} className="learning search-button" onClick={(event)=>toggleVisible(event)}>Learning</button>
