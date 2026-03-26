@@ -48,20 +48,6 @@ img {
   width:100%;
 }
 
-.top-bar {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  background-color: white;
-  padding: 8px 0;
-}
-
-@media (min-width: 850px) {
-  .top-bar {
-    position: static;
-    padding: 0;
-  }
-}
 
 .search-button{
   border: none;
